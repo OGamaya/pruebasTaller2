@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name="prueba"
+    errors="0" failures="1" hostname="" id="" package="prueba" skipped="3"
+    tests="5" time="24.70" timestamp="Tue, 13 Feb 2018 19:57:38 GMT">
+  
+    <testcase name="Los estudiantes login falied" classname="prueba" time="11.45" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Los estudiantes create user" classname="prueba" time="13.24" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;h2&gt; contains text: &#34;Registro exitoso!&#34;.">    at Object.Los estudiantes create user (E:\MISO\S2\Pruebas\Taller 2\tutorial_4\tests\prueba.js:30:15)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Los estudiantes login success" classname="prueba">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Los estudiantes create exist user" classname="prueba">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Los estudiantes subject filter" classname="prueba">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
